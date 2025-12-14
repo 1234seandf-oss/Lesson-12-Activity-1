@@ -2,50 +2,25 @@
 <html>
     <head>
         <style>
-            div.static {
-                position: static;
-                border: 3px solid green;
-            }
-            div.absolute {
-                position: absolute;
-                border: 3px solid blue;
-                top: 80px;
-                right: 0;
-                width: 200px;
-                height: 100px;
-            }
-             div.relative {
-                position: relative;
-                border: 3px solid red;
-                width: 400px;
-                height: 200px;
-            }
-             div.fixed {
-                position: fixed;
-                border: 3px solid purple;
-                bottom:0;
-                right:0;
-                width: 300px;
-                height: 200px;
-            }
-
-            
-             div.sticky {
-                position: sticky;
-                border: 3px solid yellow;
-                top: 1px;;
-                left:20px;
-                width: 100px;
-            }
-
+          div{
+            background-color: green;
+            padding: 10px;
+          }  
+          div.first{
+            opacity: 0.1;
+          }
+           div.second{
+            opacity: 0.3;
+          }
+           div.third{
+            opacity: 0.6;
+          }
         </style>
     </head>
     <body>
-        <div class="static">This div element has postioned to static</div>
-        <div class="sticky">This div element has postioned to sticky</div>
-        <div class="relative">This div element has postioned to relative <div class="absolute">This div element has postioned to absolute
-        </div>
-    </div>
-    <div class="fixed">This div element has postioned to fixed</div>
-    </body>
+    <div class="first">Opacity 0.1</div>
+    <div class="second">Opacity 0.3</div>
+    <div class="third">Opacity 0.6</div>
+    <div>Opacity 1 default</div>
+    </body>o
 </html>
